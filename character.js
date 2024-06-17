@@ -13,7 +13,7 @@ function Character() {
     stroke(0);
     strokeWeight(2);
     fill(255);
-    image(this.img, this.x, this.y, this.diam, this.diam * 0.777368421053); // insert the raw png image propotion rate and use this.diam to input image width
+    image(this.img, this.x, this.y, this.diam, this.diam * 0.7368421053); // insert the raw png image propotion rate and use this.diam to input image width
   };
 
   this.goUp = function () {
