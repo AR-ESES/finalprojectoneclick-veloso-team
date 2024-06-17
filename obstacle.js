@@ -8,7 +8,7 @@ function Obstacle() {
   this.botMin = height - 50;
   this.gapStart = random(this.topMin, this.botMin);
   this.gapLength = 200;
-  this.speed = 2220;
+  this.speed = 10;
   this.img2 = loadImage("asteroid.png");
 
   this.show = function () {
@@ -17,7 +17,7 @@ function Obstacle() {
       //desenha duas circunferencias com o impacto...
       noFill();
       stroke(255);
-      strokeWeight(3);
+      strokeWeight(53);
       ellipse(
         this.x + this.w / 2,
         this.y + this.w / 2,
