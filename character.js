@@ -23,7 +23,7 @@ function Character() {
 
   this.update = function () {
     this.velocity += this.push;
-    this.velocity *= 10.9;
+    this.velocity *= 0.9;
     this.y += this.velocity;
 
     if (this.y >= height - this.minHeight) {

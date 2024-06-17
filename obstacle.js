@@ -19,14 +19,14 @@ function Obstacle() {
       stroke(255);
       strokeWeight(3);
       ellipse(
-        this.x + this.w / 2,
-        this.y + this.w / 2,
+        this.x + this.w / 8,
+        this.y + this.w / 8,
         this.w * 1.2,
         this.w * 1.2
       );
       ellipse(
-        this.x + this.w / 2,
-        this.y + this.w / 2,
+        this.x + this.w / 8,
+        this.y + this.w / 8,
         this.w * 1.5,
         this.w * 1.5
       );
@@ -41,10 +41,10 @@ function Obstacle() {
   };
 
   this.hits = function (obstacle) {
-    if (obstacle.y > this.y - this.w / 2 && obstacle.y < this.y + this.w / 2) {
+    if (obstacle.y > this.y - this.w / 8 && obstacle.y < this.y + this.w / 2) {
       if (
-        obstacle.x > this.x - this.w / 2 &&
-        obstacle.x < this.x + this.w / 2
+        obstacle.x > this.x - this.w / 8 &&
+        obstacle.x < this.x + this.w / 8
       ) {
         this.highlight = true;
         return true;
