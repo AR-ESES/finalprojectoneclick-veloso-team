@@ -4,7 +4,7 @@ let obstaclesCleared;
 let obstaclesHit;
 
 let frameCountBettwenObstaclesType1 = 20;
-let nivelDeDificuldade = 5;
+let nivelDeDificuldade = 1;
 
 function setup() {
   var canvas = createCanvas(800, 600);
@@ -18,7 +18,7 @@ function setup() {
 
 function draw() {
   clear();
-  background(0, 20, 50);
+  background((217, 0, 87);
 
   spaceship.show();
   spaceship.update();
