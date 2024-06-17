@@ -17,7 +17,7 @@ function Obstacle() {
       //desenha duas circunferencias com o impacto...
       noFill();
       stroke(255);
-      strokeWeight(333);
+      strokeWeight(3);
       ellipse(
         this.x + this.w / 2,
         this.y + this.w / 2,
