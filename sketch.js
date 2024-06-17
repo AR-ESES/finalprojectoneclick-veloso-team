@@ -4,7 +4,7 @@ let obstaclesCleared;
 let obstaclesHit;
 
 let frameCountBettwenObstaclesType1 = 20;
-let nivelDeDificuldade = 1;
+let nivelDeDificuldade = 5;
 
 function setup() {
   var canvas = createCanvas(800, 600);
