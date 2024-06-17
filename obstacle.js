@@ -8,7 +8,7 @@ function Obstacle() {
   this.botMin = height - 50;
   this.gapStart = random(this.topMin, this.botMin);
   this.gapLength = 200;
-  this.speed = 10;
+  this.speed = 2220;
   this.img2 = loadImage("asteroid.png");
 
   this.show = function () {
@@ -19,14 +19,14 @@ function Obstacle() {
       stroke(255);
       strokeWeight(3);
       ellipse(
-        this.x + this.w / 8,
-        this.y + this.w / 8,
+        this.x + this.w / 2,
+        this.y + this.w / 2,
         this.w * 1.2,
         this.w * 1.2
       );
       ellipse(
-        this.x + this.w / 8,
-        this.y + this.w / 8,
+        this.x + this.w / 2,
+        this.y + this.w / 2,
         this.w * 1.5,
         this.w * 1.5
       );
@@ -41,10 +41,10 @@ function Obstacle() {
   };
 
   this.hits = function (obstacle) {
-    if (obstacle.y > this.y - this.w / 8 && obstacle.y < this.y + this.w / 2) {
+    if (obstacle.y > this.y - this.w / 2 && obstacle.y < this.y + this.w / 2) {
       if (
-        obstacle.x > this.x - this.w / 8 &&
-        obstacle.x < this.x + this.w / 8
+        obstacle.x > this.x - this.w / 2 &&
+        obstacle.x < this.x + this.w / 2
       ) {
         this.highlight = true;
         return true;
