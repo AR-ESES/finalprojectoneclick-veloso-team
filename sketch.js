@@ -18,7 +18,7 @@ function setup() {
 
 function draw() {
   clear();
-  background(201, 0, 0);
+  background(93, 93, 93);
 
   spaceship.show();
   spaceship.update();
