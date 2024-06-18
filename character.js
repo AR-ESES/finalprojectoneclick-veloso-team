@@ -4,7 +4,7 @@ function Character() {
   this.push = 0.96;
   this.lift = -30;
   this.velocity = 0;
-  this.diam = 180;
+  this.diam = 90;
   this.img = loadImage("space.png");
   this.minHeight = 300;
 
