@@ -1,12 +1,12 @@
 function Character() {
-  this.y = height / 16;
-  this.x = width / 16;
+  this.y = height / 6;
+  this.x = width / 6;
   this.push = 0.96;
   this.lift = -30;
   this.velocity = 0;
-  this.diam = 180;
+  this.diam = 80;
   this.img = loadImage("space.png");
-  this.minHeight = 600;
+  this.minHeight = 500;
 
   this.show = function () {
     // use this function to design the main character
