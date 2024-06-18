@@ -4,9 +4,9 @@ function Character() {
   this.push = 0.96;
   this.lift = -30;
   this.velocity = 0;
-  this.diam = 80;
+  this.diam = 180;
   this.img = loadImage("space.png");
-  this.minHeight = 500;
+  this.minHeight = 300;
 
   this.show = function () {
     // use this function to design the main character
