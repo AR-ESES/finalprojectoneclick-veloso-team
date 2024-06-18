@@ -1,6 +1,6 @@
 function Character() {
-  this.y = height / 6;
-  this.x = width / 6;
+  this.y = height / 16;
+  this.x = width / 16;
   this.push = 0.96;
   this.lift = -30;
   this.velocity = 0;
