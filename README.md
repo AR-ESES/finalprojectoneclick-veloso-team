@@ -5,6 +5,6 @@
 [Video](https://youtu.be/MK3iRD6uJTU)
 
 ### Image 	
-![Velospeed Instagram Promo](Velospeed-instagram-promo)
-![Velospeed Tshirt Promo](Velospeed-tshirt-frente)
-![Velospeed Tshirt Promo](velospeed)
+![Velospeed Instagram Promo](Velospeed-instagram-promo.png)
+![Velospeed Tshirt Promo](Velospeed-tshirt-frente.png)
+![Velospeed Tshirt Promo](velospeed.png)
