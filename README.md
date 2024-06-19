@@ -2,7 +2,8 @@
 # Fernando Veloso LPME 220001192 
 
 ### Link 	
-[Video](https://youtu.be/MK3iRD6uJTU)
+[Video Promo Velospeed](https://youtu.be/MK3iRD6uJTU)
+[Distribuição do Jogo](https://ar-eses.github.io/finalprojectoneclick-veloso-team/)
 
 ### Image 	
 ![Velospeed Instagram Promo](Velospeed-instagram-promo.png)
