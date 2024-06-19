@@ -3,6 +3,7 @@
 
 ### Link 	
 [Video Promo Velospeed](https://youtu.be/MK3iRD6uJTU)
+### Link 	
 [Distribuição do Jogo](https://ar-eses.github.io/finalprojectoneclick-veloso-team/)
 
 ### Image 	
